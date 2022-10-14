@@ -1,14 +1,14 @@
 import { Meta, StoryObj } from '@storybook/react';
-import { TextInput, TextInputProps } from './TextInput'
+import { Button, ButtonProps } from './Button'
 
 export default{
-  title: 'Components/TextInput',
-  component: TextInput,
+  title: 'Components/Button',
+  component: Button,
   args: {
     children: 'Create Account',
     size: 'md',
   },
   argTypes: {},
-  } as Meta<TextInputProps>
+  } as Meta<ButtonProps>
 
 export const Default: StoryObj = {}
