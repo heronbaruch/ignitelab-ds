@@ -13,11 +13,11 @@ export function Heading({ size = 'md', children, asChild}: HeadingProps){
   return (
     <Comp 
       className={clsx(
-        'text-gray-100 font-sans',
+        'text-gray-100 font-bold font-sans',
         {
-          'text-xs': size === 'sm',
-          'text-sm': size === 'md',
-          'text-md': size === 'lg',
+          'text-lg': size === 'sm',
+          'text-xl': size === 'md',
+          'text-2xl': size === 'lg',
         }
         )}>
       {children}
