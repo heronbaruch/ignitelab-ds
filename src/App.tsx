@@ -1,11 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import './styles/global.css'
 
-function App() {
+export function App() {
   return (
-    <h1>Hello</h1>
+    <h1 className='font-bold text-5xl'>Hello</h1>
   )
 }
 
-export default App
+
